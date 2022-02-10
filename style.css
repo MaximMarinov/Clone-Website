@@ -179,6 +179,7 @@ div.gallery {
     text-align: center;
 }
 
+
 div.image-box .details {
     display: flex;
     align-items: center;
@@ -247,7 +248,7 @@ div.details.four{
 }
 
 
-/* //------------------- */
+/* ------------------- */
 
 div.image-box .details-hover {
     display: flex;
@@ -266,7 +267,7 @@ div.image-box .details-hover .image-country {
 }
 
 div.details-hover .number {
-    margin-bottom: 40px;
+    margin-bottom: 150px;
     background-color: #357B95;
     width: 60px;
     height: 60px;
@@ -286,13 +287,15 @@ div.details-hover button {
     border-radius: 50px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 div.image-box {
     position: relative;
 }
 
-div.details-hover {
+div.details-hover { 
+    justify-content: center;
     position: absolute;
     bottom: 20px;
     right: 20px;
