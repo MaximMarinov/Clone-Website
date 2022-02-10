@@ -7,6 +7,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background: url(images/bg.png);
     color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* HEADER */
@@ -18,6 +21,10 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.header-container .wrapper{
+    max-width: 1400px;
 }
 
 header {
@@ -184,14 +191,14 @@ div.image-box .details h1 {
 }
 
 div.details .number {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     background-color: #357B95;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     text-align: center;
-    padding-top: 8px;
-    position: relative;
+    padding-top: 11px;
+    font-size: 18px;
 }
 
 div.details button {
@@ -204,4 +211,96 @@ div.details button {
     border-radius: 50px;
     color: white;
     font-size: 16px;
+    display: none;
+}
+
+div.image-box {
+    position: relative;
+}
+
+div.details{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    align-content: center;
+    margin-bottom: 25px;
+}
+
+div.details.one{
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+div.details.two{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+div.details.three{
+    padding-left: 20px;
+    padding-right: 35px;
+}
+
+div.details.four{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+/* //------------------- */
+
+div.image-box .details-hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+div.image-box .details-hover h1 {
+    font-size: 18px;
+    color: white;
+}
+
+div.image-box .details-hover .image-country {
+    color: white;
+}
+
+div.details-hover .number {
+    margin-bottom: 40px;
+    background-color: #357B95;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+div.details-hover button {
+    margin-top: 40px;
+    background-color: #357B95;
+    border: 0;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+div.image-box {
+    position: relative;
+}
+
+div.details-hover {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    align-content: center;
+    margin-bottom: 25px;
+    display: none;
+}
+
+div.image-box .details-hover {
+    display: none;
 }
